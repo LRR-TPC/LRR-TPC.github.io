@@ -7,6 +7,16 @@ header {
   height: 88px;
   background-color: #555;
 }
+header .content {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 25px 20px 0;
+}
+header .content .logo {
+  font-size: 40px;
+  color: #fff;
+}
 nav {
   height: 50px;
   background-color: #333;
@@ -36,6 +46,36 @@ nav .content ul li a {
 main {
   height: 1000px;
   background-color: #ccc;
+}
+main .content {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+main .content .personal {
+  width: 700px;
+  height: 400px;
+  background-color: pink;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+main .content .picture_list {
+  width: 370px;
+  height: 900px;
+  background-color: skyblue;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+main .content .vlog_list {
+  width: 700px;
+  height: 450px;
+  background-color: yellowgreen;
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
 }
 footer {
   height: 166px;

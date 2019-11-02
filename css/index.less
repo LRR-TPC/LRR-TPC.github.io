@@ -1,4 +1,4 @@
-.w(@size){
+.w(@size) {
     width: @size;
     height: 100%;
     margin: 0 auto;
@@ -15,12 +15,23 @@ header {
     height: 88px;
     background-color: #555;
 
-    
+    .content {
+        .w(1170px);
+        padding: 25px 20px 0;
+
+        .logo {
+            font-size: 40px;
+            color: #fff;
+        }
+    }
+
+
 }
 
 nav {
     height: 50px;
     background-color: #333;
+
     .content {
         .w(1170px);
 
@@ -43,9 +54,44 @@ nav {
         }
     }
 }
+
 main {
     height: 1000px;
     background-color: #ccc;
+
+    .content {
+        .w(1170px);
+        position: relative;
+
+        .personal {
+            width: 700px;
+            height: 400px;
+            background-color: pink;
+            position: absolute;
+            top: 50px;
+            left: 10px;
+        }
+
+        .picture_list {
+            width: 370px;
+            height: 900px;
+            background-color: skyblue;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+        }
+        
+        .vlog_list {
+            width: 700px;
+            height: 450px;
+            background-color: yellowgreen;
+            position: absolute;
+            bottom: 50px;
+            left: 10px;
+        }
+
+    }
+
 }
 
 footer {
